@@ -58,6 +58,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 
+
+
     private void showToastPopularMovies(View view){
         Toast toast = Toast.makeText(this,"Popular Movies Message!",Toast.LENGTH_SHORT);
         toast.show();
